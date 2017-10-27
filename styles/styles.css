@@ -1,0 +1,27 @@
+body{
+  background-color: #fafafa;
+}
+
+
+#forms{
+  text-align: center;
+  float: right;
+  height: 700px;
+  width: 380px;
+  margin-right: 180px;
+  margin-top: 50px;
+}
+
+#row1{
+  text-align: center;
+  border:solid grey 1px;
+  height: 530px;
+  border-top: 20px;
+}
+
+#row2{
+  text-align: center;
+  border:solid grey 1px;
+  margin-top: 15px;
+  height: 75px;
+}
