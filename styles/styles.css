@@ -2,26 +2,85 @@ body{
   background-color: #fafafa;
 }
 
+#phone{
+  width: 290px;
+  margin-top: 50px;
+  border: 1px solid black;
+  float: left;
+}
 
 #forms{
   text-align: center;
-  float: right;
-  height: 700px;
+  height: 750px;
   width: 380px;
   margin-right: 180px;
   margin-top: 50px;
+  float: right;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  background-color: white;
+  color: #9B9A9A;
+  font-weight: bold;
+  font-size: 17px;
+  border: 1px solid #ECECEC;
+}
+
+#forms p{
+  width: 300px;
+}
+
+#forms img{
+  height: 100px;
+  width: 200px;
 }
 
 #row1{
   text-align: center;
-  border:solid grey 1px;
-  height: 530px;
-  border-top: 20px;
+  height: 580px;
+  padding: right: 40px;
+  padding-left: 40px;
+}
+
+#hr1{
+  width:130px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+#p1{
+  font-size: 15px;
+  color: #9B9A9A;
+}
+
+#form-buttons{
+  width: 270px;
+  height:27px;
+  background-color: #3897f0;
+  margin-bottom: 10px;
+  border-color: #3897f0;
+  padding: 2px;
+}
+
+#row1 input{
+  width: 270px;
+  margin-bottom: 10px;
+  background-color: #EDEDED;
+  border: 1px solid #E8E8E8;
+  color: #E3E3E3;
+}
+
+#text2{
+  font-size: 15px;
+  width: 240px;
+}
+form p a{
+  font-size: 17px;
+  color: #8D8D8D;
+  font-weight: bold;
 }
 
 #row2{
   text-align: center;
-  border:solid grey 1px;
-  margin-top: 15px;
+  margin-top: 20px;
+  border: 1px solid #ECECEC;
   height: 75px;
 }
