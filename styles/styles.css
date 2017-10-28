@@ -10,13 +10,13 @@ body{
 }
 
 #phone img{
-  height:550px;
+  height:650px;
 }
 
 #forms{
   text-align: center;
-  height: 750px;
-  width: 330px;
+  height: 500px;
+  width: 320px;
   margin-right: 120px;
   margin-top: 50px;
   float: right;
@@ -31,13 +31,15 @@ body{
 
 #forms p{
   width: 200px;
-  margin-left: 20px;
+  margin-left: 60px;
+  line-height: 20px;
 }
 
 #forms img{
   margin-right: 20px;
   height: 60px;
   width: 180px;
+  margin-top: 25px;
 }
 
 #row1{
@@ -73,6 +75,7 @@ body{
   margin-bottom: 10px;
   background-color: #EDEDED;
   border: 1px solid #E8E8E8;
+
 }
 
 #text2{
@@ -80,25 +83,49 @@ body{
   width: 240px;
 }
 form p a{
-  font-size: 16px;
+  font-size: 15px;
   color: #8D8D8D;
   font-weight: bold;
 }
 
 #row2{
   text-align: center;
-  margin-top: 20px;
   border: 1px solid #ECECEC;
   height: 75px;
+  font-size: 14px;
+  color: black;
+  position: absolute;
+  top:510px;
+  width:320px;
+}
+
+#row2 p{
+  margin-top: 20px;
+}
+
+#row3{
+  position: absolute;
+  top: 610px;
+  width: 320px;
+}
+
+#row3 img{
+  height: 40px;
+  width: 130px;
+  display: inline-block;
+}
+
+#row3img{
+  float:right;
+}
+
+#row3img2{
+  float: left;
 }
 
 
-
-@media screen and (max-width:550px;) {
-  div #main{
-    border:5px solid red;
-  }
+@media screen and (max-width: 992px){
   #phone{
-    border:5px solid red;
+    display: none;
   }
 }
