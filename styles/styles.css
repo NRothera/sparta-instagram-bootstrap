@@ -7,13 +7,18 @@ body{
   margin-top: 50px;
   border: 1px solid black;
   float: left;
+  padding-left: 50px;
+}
+
+#phone img{
+  height:550px;
 }
 
 #forms{
   text-align: center;
   height: 750px;
-  width: 380px;
-  margin-right: 180px;
+  width: 330px;
+  margin-right: 120px;
   margin-top: 50px;
   float: right;
   font-family: 'Playfair Display', serif;
@@ -26,12 +31,14 @@ body{
 }
 
 #forms p{
-  width: 300px;
+  width: 200px;
+  margin-left: 20px;
 }
 
 #forms img{
-  height: 100px;
-  width: 200px;
+  margin-right: 20px;
+  height: 60px;
+  width: 180px;
 }
 
 #row1{
@@ -53,11 +60,13 @@ body{
 
 #form-buttons{
   width: 270px;
-  height:27px;
+  height:24px;
   background-color: #3897f0;
   margin-bottom: 10px;
   border-color: #3897f0;
   padding: 2px;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 #row1 input{
@@ -65,7 +74,7 @@ body{
   margin-bottom: 10px;
   background-color: #EDEDED;
   border: 1px solid #E8E8E8;
-  color: #E3E3E3;
+
 }
 
 #text2{
@@ -73,7 +82,7 @@ body{
   width: 240px;
 }
 form p a{
-  font-size: 17px;
+  font-size: 16px;
   color: #8D8D8D;
   font-weight: bold;
 }
@@ -83,4 +92,19 @@ form p a{
   margin-top: 20px;
   border: 1px solid #ECECEC;
   height: 75px;
+}
+
+@media screen and (max-width:1320px) {
+  #phone{
+    padding-left: 200px;
+  }
+}
+
+@media screen and (max-width:550px;) {
+  div #main{
+    border:5px solid red;
+  }
+  #phone{
+    border:5px solid red;
+  }
 }
