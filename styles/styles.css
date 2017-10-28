@@ -3,10 +3,10 @@ body{
 }
 
 #phone{
-  width: 290px;
+  width: 10px;
   margin-top: 50px;
   float: left;
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 #phone img{
@@ -72,10 +72,12 @@ body{
 
 #row1 input{
   width: 270px;
+  height: 30px;
   margin-bottom: 10px;
-  background-color: #EDEDED;
-  border: 1px solid #E8E8E8;
-
+  background-color: #FCFBFB;
+  border: 1px solid #F2F2F2;
+  font-size: 15px;
+  padding-left: 5px;
 }
 
 #text2{
@@ -97,6 +99,7 @@ form p a{
   position: absolute;
   top:510px;
   width:320px;
+  background-color: white;
 }
 
 #row2 p{
