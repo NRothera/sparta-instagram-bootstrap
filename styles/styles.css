@@ -15,8 +15,8 @@ body {
 
 #forms {
   text-align: center;
-  height: 500px;
-  width: 320px;
+  height:500px;
+  width: 340px;
   margin-right: 120px;
   margin-top: 50px;
   float: right;
@@ -26,11 +26,11 @@ body {
   color: #9B9A9A;
   font-weight: bold;
   border: 1px solid #ECECEC;
+  font-weight: bold;
 }
 
 #or{
   font-size: 12px;
-  margin-bottom: 5px;;
 }
 
 #forms p {
@@ -50,12 +50,6 @@ body {
   text-align: center;
   height: 560px;
   padding: right: 40px;
-}
-
-hr{
-  width:130px;
-  font-size: 15px;
-  margin-bottom: 30px;
 }
 
 #p1 {
@@ -116,11 +110,11 @@ form p a {
   width: 320px;
   font-size: 0;
   margin-left: 15px;
+  color:black;
 }
 
 #row3 p {
   font-size: 15px;
-  color: black;
   padding-right: 55px;
   line-height: 0px;
 }
@@ -148,6 +142,9 @@ span {
   word-spacing:normal;
   float: right;
   margin-right: 40px;
+  color: #9B9A9A;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 992px){
