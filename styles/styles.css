@@ -1,19 +1,19 @@
-body{
+body {
   background-color: #fafafa;
 }
 
-#phone{
+#phone {
   width: 10px;
   margin-top: 50px;
   float: left;
   padding-left: 10px;
 }
 
-#phone img{
+#phone img {
   height:650px;
 }
 
-#forms{
+#forms {
   text-align: center;
   height: 500px;
   width: 320px;
@@ -29,37 +29,37 @@ body{
   border: 1px solid #ECECEC;
 }
 
-#forms p{
+#forms p {
   width: 200px;
   margin-left: 60px;
   line-height: 20px;
 }
 
-#forms img{
+#forms img {
   margin-right: 20px;
   height: 60px;
   width: 180px;
   margin-top: 25px;
 }
 
-#row1{
+#row1 {
   text-align: center;
   height: 530px;
   padding: right: 40px;
 
 }
 
-#hr1{
+#hr1 {
   width:130px;
   font-size: 15px;
   margin-bottom: 30px;
 }
-#p1{
+#p1 {
   font-size: 15px;
   color: #9B9A9A;
 }
 
-#form-button-1{
+#form-buttons {
   width: 270px;
   height:24px;
   background-color: #3897f0;
@@ -70,25 +70,9 @@ body{
   font-size: 14px;
 }
 
-#form-button-2{
+#row1 input {
   width: 270px;
-  height:24px;
-  background-color: #3897f0;
-  margin-bottom: 10px;
-  border-color: #3897f0;
-  padding: 2px;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-
-  height: 20px;
-  width:20px;
-}
-
-#row1 input{
-  width: 270px;
-  height: 30px;
+  height: 35px;
   margin-bottom: 10px;
   background-color: #FCFBFB;
   border: 1px solid #F2F2F2;
@@ -96,17 +80,18 @@ body{
   padding-left: 5px;
 }
 
-#text2{
+#text2 {
   font-size: 15px;
   width: 240px;
 }
-form p a{
+
+form p a {
   font-size: 15px;
   color: #8D8D8D;
   font-weight: bold;
 }
 
-#row2{
+#row2 {
   text-align: center;
   border: 1px solid #ECECEC;
   height: 75px;
@@ -118,11 +103,11 @@ form p a{
   background-color: white;
 }
 
-#row2 p{
+#row2 p {
   margin-top: 20px;
 }
 
-#row3{
+#row3 {
   position: absolute;
   top: 610px;
   width: 320px;
@@ -130,37 +115,37 @@ form p a{
   margin-left: 15px;
 }
 
-#row3 p{
+#row3 p {
   font-size: 15px;
   color: black;
   padding-right: 55px;
   line-height: 0px;
 }
 
-#row3 img{
+#row3 img {
   height: 40px;
   width: 130px;
   line-height: 0px;
 }
 
-footer{
+footer {
   position: absolute;
   bottom: 0px;
   top: 800px;
   width:100%;
   font-size: 12px;
 }
-footer p{
+
+footer p {
   margin-left: 20px;
   word-spacing: 20px;
 }
-span{
+
+span {
   word-spacing:normal;
   float: right;
   margin-right: 40px;
 }
-
-
 
 @media screen and (max-width: 992px){
   #phone{
