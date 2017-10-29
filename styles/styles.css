@@ -59,7 +59,7 @@ body{
   color: #9B9A9A;
 }
 
-#form-buttons{
+#form-button-1{
   width: 270px;
   height:24px;
   background-color: #3897f0;
@@ -70,8 +70,18 @@ body{
   font-size: 14px;
 }
 
-.facebook{
-  background-image: url("styles/facebook.png");
+#form-button-2{
+  width: 270px;
+  height:24px;
+  background-color: #3897f0;
+  margin-bottom: 10px;
+  border-color: #3897f0;
+  padding: 2px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
   height: 20px;
   width:20px;
 }
